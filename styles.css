@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #03a9f4;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.schedule {
+    padding: 20px;
+    background-color: #b3e5fc;
+}
+
+.schedule h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #01579b;
+}
+
+#schedule-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.schedule-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Ensure medicine items are displayed vertically */
+}
+
+.time {
+    font-size: 18px;
+    color: #0288d1;
+}
+
+.medicine {
+    color: #333;
+}
+
+.medicine-list {
+    margin-left: 10px;
+}
+
+.medicine-item {
+    padding: 5px 0;
+}
